@@ -1,55 +1,55 @@
 Fase 1 - Setup Inicial:
-    ☐ Faça um fork desse repositório para a sua conta github
-    ☐ Clone o seu repositório para a sua máquina local
-    ☐ Inicie um projeto node na pasta deste projeto
-    
-    Verificações: 
-        ☐ Se o comando npm init criou um arquivo package.json na raíz do seu projeto
-
+    ✔ Faça um fork desse repositório para a sua conta github @done(22-03-04 16:06)
+    ✔ Clone o seu repositório para a sua máquina local @done(22-03-04 16:06)
+    ✔ Inicie um projeto node na pasta deste projeto @done(22-03-04 16:22)
+    ✔ ☐ @done(22-03-04 16:22)
+    ✔ Verificações: nom@done(22-03-04 16:22)
+        ✔ Se o comando npm init criou um arquivo package.json na raíz do seu projeto @done(22-03-04 16:22)
+✔ @done(22-03-04 16:22)
 
 
 Fase 2 - Criação da aplicação (Criado o sevidor web no app.js):
-    ☐ Instale a biblioteca express no projeto
-    ☐ Faça com que o git ignore a pasta node_modules
-    ☐ Crie um arquivo chamado app.js na raíz do seu projeto
-    ☐ No app.js:
-        ☐ Importe o express
-        ☐ Crie um aplicação web com o express e guarde-a numa constante app.
-        ☐ Crie uma rota get para o endereço '/'.
-            Quando acessada, essa rota deve responder um 'Olá, visitante!' para o cliente
-        ☐ Escreva uma linha que iniciará o servidor na porta 3000 (app.listen)
-            Quando o servidor iniciar, ele deve escrever no console: "Servidor rodando na porta 3000"
+    ✔ Instale a biblioteca express no projeto @done(22-03-04 16:25)
+    ✔ Faça com que o git ignore a pasta node_modules @done(22-03-04 16:27)
+    ✔ Crie um arquivo chamado app.js na raíz do seu projeto @done(22-03-04 16:29)
+    ✔ No app.js: @done(22-03-04 16:29)
+        ✔ Importe o express @done(22-03-04 17:11)
+        ✔ Crie um aplicação web com o express e guarde-a numa constante app. @done(22-03-04 17:11)
+        ✔ Crie uma rota get para o endereço '/'. @done(22-03-04 17:11)
+            ✔ Quando acessada, essa rota deve responder um 'Olá, visitante!' para o cliente @done(22-03-04 17:11)
+        ✔ Escreva uma linha que iniciará o servidor na porta 3000 (app.listen) @done(22-03-04 17:11)
+            ✔ Quando o servidor iniciar, ele deve escrever no console: "Servidor rodando na porta 3000" @done(22-03-04 17:11)
 
     Verificações:
-        ☐ Execute o comando node app.js para iniciar o servidor. Você deve ver a mensagem "Servidor rodando na porta 3000" no console
-        ☐ Abra o navegador e visite o endereço http://localhost:3000. Deve aparecer no navegador a frase "Olá, visitante!"
-        ☐ Verifique se a pasta node_modules aparece listada no comando git status
-
+        ✔ Execute o comando node app.js para iniciar o servidor. Você deve ver a mensagem "Servidor rodando na porta 3000" no console @done(22-03-04 17:17)
+        ✔ Abra o navegador e visite o endereço http://localhost:3000. Deve aparecer no navegador a frase "Olá, visitante!" @done(22-03-04 17:17)
+        ✔ Verifique se a pasta node_modules aparece listada no comando git status @done(22-03-04 17:17)
+✔ @done(22-03-04 17:17)
 
 
 Fase 3 - Instalação do nodemon e configuração para auto restart:
-    ☐ Instale o nodemon no projeto como dependência de desenvolvimento
-    https://pt.stackoverflow.com/questions/163785/qual-a-diferen%C3%A7a-entre-dependencies-e-devdependencies
-
-    ☐ Altere o package.json:
-        ☐ Acrescente uma propriedade "start" ao objeto "scripts".
-        ☐ A propriedade start deve conter a string "nodemon app.js"
-    ☐ Execute o comando npm start no console.
-
-    Verificações:
-        ☐ Veja se a mensagem "Servidor rodando na porta 3000" aparece no console.
-        ☐ Abra o navegador e acesse http://localhost:3000. A mensagem 'Olá, visitante!' deve aparecer na tela.
-
-
+    ✔ Instale o nodemon no projeto como dependência de desenvolvimento @done(22-03-04 17:19)
+    ✔ https://pt.stackoverflow.com/questions/163785/qual-a-diferen%C3%A7a-entre-dependencies-e-devdependencies @done(22-03-04 17:19)
+✔ @done(22-03-04 17:19)
+    ✔ Altere o package.json: @done(22-03-04 17:19)
+        ✔ Acrescente uma propriedade "start" ao objeto "scripts". @done(22-03-04 17:19)
+        ✔ A propriedade start deve conter a string "nodemon app.js" @done(22-03-04 17:19)
+    ✔ Execute o comando npm start no console. @done(22-03-04 17:19)
+✔ @done(22-03-04 17:19)
+    ✔ Verificações: @done(22-03-04 17:19)
+        ✔ Veja se a mensagem "Servidor rodando na porta 3000" aparece no console. @done(22-03-04 17:19)
+        ✔ Abra o navegador e acesse http://localhost:3000. A mensagem 'Olá, visitante!' deve aparecer na tela. @done(22-03-04 17:19)
+✔ @done(22-03-04 17:19)
+✔ @done(22-03-04 17:19)
         
 Fase 4 - Organizando o MVC:
-    ☐ Crie uma pasta chamada routes na raíz do projeto.
-    ☐ Na pasta routes, crie um arquivo chamado PizzasRouter.js
-    ☐ No arquivo PizzasRouter.js:
-        ☐ Importe o express.
-        ☐ Crie um roteador e armazene-o numa constante router
-        ☐ Exporte essa constante
-
+    ✔ Crie uma pasta chamada routes na raíz do projeto. @done(22-03-04 17:20)
+    ✔ Na pasta routes, crie um arquivo chamado PizzasRouter.js @done(22-03-04 17:20)
+    ✔ No arquivo PizzasRouter.js: @done(22-03-04 17:27)
+        ✔ Importe o express. @done(22-03-04 17:27)
+        ✔ Crie um roteador e armazene-o numa constante router @done(22-03-04 17:27)
+        ✔ Exporte essa constante @done(22-03-04 17:27)
+✔ @done(22-03-04 17:27)
     ☐ No arquivo app.js importe o roteador recém criado para uma constante chamada PizzasRouter.
         Atente para que o uso do PizzasRouter ocorra depois da criação da
         aplicação mas antes da linha que iniciar.
