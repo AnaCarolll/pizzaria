@@ -50,19 +50,19 @@ Fase 4 - Organizando o MVC:
         ✔ Crie um roteador e armazene-o numa constante router @done(22-03-04 17:27)
         ✔ Exporte essa constante @done(22-03-04 17:27)
 ✔ @done(22-03-04 17:27)
-    ☐ No arquivo app.js importe o roteador recém criado para uma constante chamada PizzasRouter.
-        Atente para que o uso do PizzasRouter ocorra depois da criação da
-        aplicação mas antes da linha que iniciar.
-    ☐ Utilize o PizzasRouter como roteador da aplicação. Dica: app.use(____)
-    ☐ Crie uma pasta chamada controllers na raíz do projeto.
-    ☐ Na pasta controllers crie um arquivo chamado PizzasController.js
+    ✔ No arquivo app.js importe o roteador recém criado para uma constante chamada PizzasRouter. @done(22-03-04 17:37)
+        ✔ Atente para que o uso do PizzasRouter ocorra depois da criação da @done(22-03-04 17:37)
+        ✔ aplicação mas antes da linha que iniciar. @done(22-03-04 17:37)
+    ✔ Utilize o PizzasRouter como roteador da aplicação. Dica: app.use(____) @done(22-03-07 14:29)
+    ✔ Crie uma pasta chamada controllers na raíz do projeto. @done(22-03-07 14:19)
+    ✔ Na pasta controllers crie um arquivo chamado PizzasController.js @done(22-03-07 14:20)
         Em passos a frente, o arquivo PizzasController.js irá conter as funções
         responsáveis por tratar da requisição e da resposta a ser enviada para o cliente.
         Essas funções chamaremos de controllers ou controladores.
-    ☐ No arquvo PizzasController.js crie um objeto literal vazio e o exporte utilizando o module.exports
-    ☐ Crie uma pasta chamada public.
-    ☐ Dentro da pasta public, crie duas pastas: css e img
-    ☐ Mova os arquivos que estão na pasta imagens para a pasta public/img
+    ✔ No arquvo PizzasController.js crie um objeto literal vazio e o exporte utilizando o module.exports @done(22-03-07 14:37)
+    ✔ Crie uma pasta chamada public. @done(22-03-07 14:38)
+    ✔ Dentro da pasta public, crie duas pastas: css e img @done(22-03-07 14:38)
+    ✔ Mova os arquivos que estão na pasta imagens para a pasta public/img @done(22-03-07 14:41)
     ☐ Remova a pasta imagens
     
     Verificações:

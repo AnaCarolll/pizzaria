@@ -1,14 +1,15 @@
 const express = require('express');
 const app = express();
 const porta = 3000; 
+const PizzaRouter= require ('./router/PizzaRouter')
 app.get('/', (req,res) => {
     res.send('óla, visitante!')
 } )
 
-const PizzaRouter= require ('./router/PizzaRouter')
 
 
 
+app.use('/', PizzaRouter);
 
 
 
