@@ -6,7 +6,9 @@ app.get('/', (req,res) => {
     res.send('óla, visitante!')
 } )
 
-
+const path = require ('path')
+app.set('view engrine', 'ejs')
+app.use(express.static(path.join(__dirname, 'public')));
 
 
 app.use('/', PizzaRouter);

@@ -63,7 +63,7 @@ Fase 4 - Organizando o MVC:
     ✔ Crie uma pasta chamada public. @done(22-03-07 14:38)
     ✔ Dentro da pasta public, crie duas pastas: css e img @done(22-03-07 14:38)
     ✔ Mova os arquivos que estão na pasta imagens para a pasta public/img @done(22-03-07 14:41)
-    ☐ Remova a pasta imagens
+    ✔ Remova a pasta imagens @done(22-03-07 15:21)
     
     Verificações:
         A cada alteração salva nos passos da Fase 4
@@ -73,12 +73,12 @@ Fase 4 - Organizando o MVC:
 
 
 Fase 5 - Configurando o template engina e pasta de arquivos públicos:
-    ☐ Instale no projeto a biblioteca ejs
-    ☐ No app.js:
-        ☐ Importe a biblioteca nativa path.
-        ☐ Configure a aplicação para que ela utilize o EJS como template engine
-            Dica: Linha 12 de https://github.com/sergiomoura/filnemateca/blob/0721CDPROCV01BRED/index.js
-        ☐ Configure a aplicação para que ela reconheça a pasta public como a pasta de arquivos públicos e estáticos
+    ✔ Instale no projeto a biblioteca ejs @done(22-03-08 14:57)
+    ✔ No app.js: @done(22-03-08 15:10)
+        ✔ Importe a biblioteca nativa path. @done(22-03-08 15:10)
+        ✔ Configure a aplicação para que ela utilize o EJS como template engine @done(22-03-08 15:10)
+            ✔ Dica: Linha 12 de https://github.com/sergiomoura/filnemateca/blob/0721CDPROCV01BRED/index.js @done(22-03-08 15:10)
+        ✔ Configure a aplicação para que ela reconheça a pasta public como a pasta de arquivos públicos e estáticos @done(22-03-08 15:10)
         Dica: Linha 15 de https://github.com/sergiomoura/filnemateca/blob/0721CDPROCV01BRED/index.js
         Importante: Essas duas últimas alterações devem ser feitas antes do uso o ro
 
