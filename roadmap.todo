@@ -91,9 +91,9 @@ Fase 6 - Retornando a página estática com pizzas:
         ☐ Crie uma rota get para '/' direcionando a requisição para PizzasController.listar
     ☐ No objeto literal que está no PizzasController.js, crie uma função chamada listar
         Essa função listar deve renderizar a view pizzas.ejs que será criado nos próximos passos
-    ☐ Crie uma pasta chamada views
-    ☐ Na pasta views crie um arquivo chamado pizzas.ejs
-    ☐ Copie para o arquivo pizzas.ejs o conteúdo do link abaixo:
+    ✔ Crie uma pasta chamada views @done(22-03-08 16:26)
+    ✔ Na pasta views crie um arquivo chamado pizzas.ejs @done(22-03-08 16:28)
+    ✔ Copie para o arquivo pizzas.ejs o conteúdo do link abaixo: @done(22-03-08 16:29)
     https://github.com/sergiomoura/pizzaria-fantastica-tema/blob/master/index.html
     ☐ No arquivo app.js, remova a rota app.get criada na Fase 2.
     Verificações:

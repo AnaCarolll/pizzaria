@@ -1,2 +1,7 @@
-const Pizzas ={};
-module.exports = Pizzas
+const  PizzasController ={
+     listar:(req, res)=>{
+     res.render('pizzas.ejs')
+
+     }
+};
+module.exports = PizzasController;
