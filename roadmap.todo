@@ -87,33 +87,33 @@ Fase 5 - Configurando o template engina e pasta de arquivos públicos:
 
 Fase 6 - Retornando a página estática com pizzas:
     ☐ No arquivo PizzasRouter.js:
-        ☐ Importe o PizzasController
-        ☐ Crie uma rota get para '/' direcionando a requisição para PizzasController.listar
-    ☐ No objeto literal que está no PizzasController.js, crie uma função chamada listar
+        ✔ Importe o PizzasController @done(22-03-09 19:45)
+        ✔ Crie uma rota get para '/' direcionando a requisição para PizzasController.listar @done(22-03-09 19:45)
+    ✔ No objeto literal que está no PizzasController.js, crie uma função chamada listar @done(22-03-09 19:46)
         Essa função listar deve renderizar a view pizzas.ejs que será criado nos próximos passos
     ✔ Crie uma pasta chamada views @done(22-03-08 16:26)
     ✔ Na pasta views crie um arquivo chamado pizzas.ejs @done(22-03-08 16:28)
     ✔ Copie para o arquivo pizzas.ejs o conteúdo do link abaixo: @done(22-03-08 16:29)
     https://github.com/sergiomoura/pizzaria-fantastica-tema/blob/master/index.html
-    ☐ No arquivo app.js, remova a rota app.get criada na Fase 2.
-    Verificações:
-        ☐ Com o sevidor rodando, visite http://localhost:3000.
+    ✔ No arquivo app.js, remova a rota app.get criada na Fase 2. @done(22-03-09 20:35)
+    ✔ Verificações: @done(22-03-09 20:35)
+        ✔ Com o sevidor rodando, visite http://localhost:3000. @done(22-03-09 20:35)
             Você deve ver uma página com algumas informações sobre pizzas
             (nomes e preços) mas ainda sem estilização nem imagens
 
 
 
 Fase 7 - Acrescentando estilo e imagens a página estática:
-    ☐ Dentro da pasta public/css crie um arquivo chamado styles.css
-    ☐ Copie para o arquivo styles.css o conteúdo do link abaixo:
+    ✔ Dentro da pasta public/css crie um arquivo chamado styles.css @done(22-03-09 20:38)
+    ✔ Copie para o arquivo styles.css o conteúdo do link abaixo: @done(22-03-09 20:39)
     https://github.com/sergiomoura/pizzaria-fantastica-tema/blob/master/assets/css/styles.css
-    ☐ Dentro da pasta public/css crie um arquivo chamado index.css
-    ☐ Copie para o arquivo index.css o conteúdo do link abaixo:
+    ✔ Dentro da pasta public/css crie um arquivo chamado index.css @done(22-03-09 20:39)
+    ✔ Copie para o arquivo index.css o conteúdo do link abaixo: @done(22-03-09 20:39)
     https://github.com/sergiomoura/pizzaria-fantastica-tema/blob/master/assets/css/index.css
 
     ☐ No arquivo pizzas.ejs:
-        ☐ Adeque o caminho do link do estilo para /css/styles.css
-        ☐ Adeque o caminho do link do estilo para /css/index.css
+        ✔ Adeque o caminho do link do estilo para /css/styles.css @done(22-03-09 20:41)
+        ✔ Adeque o caminho do link do estilo para /css/index.css @done(22-03-09 20:42)
         ☐ Adeque o caminho das imagens para /img/quatroqueijos.jpg
 
     Verificações:
