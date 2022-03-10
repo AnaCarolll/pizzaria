@@ -15,10 +15,10 @@
 	</form>
 
 	<main>
-		<% for (let p of pizza){ %>
+		<% for (let p of pizzas){ %>
 		<article>
 			<img src="<%=p.img%>" alt="<%=p.nome%>">
-			<a href="pizza.html">Ver Mais</a>
+			<a href="/pizza/<% p.id %>">Ver Mais</a>
 			<button>+ Add</button>
 			<div>Quatro Queijos</div>
 			<span>R$ 33,90</span>
