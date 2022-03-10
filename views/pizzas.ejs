@@ -15,14 +15,17 @@
 	</form>
 
 	<main>
+		<% for (let p of pizza){ %>
 		<article>
-			<img src="/img/quatroqueijos.jpg" alt="Quatro Queijos">
+			<img src="<%=p.img%>" alt="<%=p.nome%>">
 			<a href="pizza.html">Ver Mais</a>
 			<button>+ Add</button>
 			<div>Quatro Queijos</div>
 			<span>R$ 33,90</span>
 		</article>
-		<article>
+		<% } %>
+		
+		<!--<article>
 			<img src="/img/pepperoni.jpg" alt="Pepperoni">
 			<a href="pizza.html">Ver Mais</a>
 			<button>+ Add</button>
