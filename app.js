@@ -12,22 +12,8 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', PizzaRouter);
 
 
+app.listen(porta, () => {
+    console.log('Servidor Rodando na porta ${porta}')
+});
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-app.listen(porta)
