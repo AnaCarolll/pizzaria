@@ -12,11 +12,16 @@ const  PizzasController ={
        
      },
      buscar:(req, res)=>{
-          let busca = req.params.q;
+          let busca = req.query.q;
+          console.log(busca)
           if (busca){
+               
                let result = pizzas.filter(p => p.nome.toUpperCase().includes(busca.toUpperCase()));
+               console.log(result)
+               
                return res.render('../views/pizzas.ejs', { pizzas: result,busca});
           }else{
+              console.log( 'nao vou te atrapalhar mais !')
                return res.redirect('/')
           }
      }
