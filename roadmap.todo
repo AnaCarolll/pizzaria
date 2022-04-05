@@ -238,15 +238,15 @@ Fase 13 - Exibindo mensagem de específica quando nenhuma pizza for encontrada:
         específico na sua busca."
 
 Fase 14 - Fazendo com que o que o usuário digitou na busca não seja perdido:
-    ☐ Na view  pizzas.ejs altere o elemento input type="text" para que o atributo value mostre busca, caso busca não seja vazio.
-    ☐ No controller listar do PizzasController, além do array de pizzas, passe um campo "busca" com o valor '' (string vazia).
+    ✔ Na view  pizzas.ejs altere o elemento input type="text" para que o atributo value mostre busca, caso busca não seja vazio. @done(22-03-24 15:09)
+    ✔ No controller listar do PizzasController, além do array de pizzas, passe um campo "busca" com o valor '' (string vazia). @done(22-03-24 15:09)
 
 Fase 15 - Passando de uma pizza para outra:
     Nessa fase, faremos com que na página que exibe os detalhes de
     uma pizza, seja possível navegar para a próxima pizza e para
     a pizza anterior clicando nos links em forma de seta
-    ☐ Na função mostrar no arquivo PizzasController:
-        - Declare duas variáveis: idProxima e idAnterior 
+    ✔ Na função mostrar no arquivo PizzasController: @done(22-03-24 15:31)
+        - Declare duas variáveis: idProxima e idAnterior
         - Capture o id da pizza a partir da URL na variável id (Esse passo já foi dado... req.params.id)
         - Determine a posição da pizza que tem o id desejado (Dica: Use a função findIndex) e guarde na variável posicao
         - Guarde a pizza da posicao encontrada na variável pizza

@@ -12,11 +12,11 @@
 	<main>
 		<h1><%= pizzas.nome%></h1>
 		<h2>R$ 33,90</h2>
-		<img src="/img/quatroqueijos.jpg" alt="Quatro Queijos">
-		<div>Ingredientes: Quero 1, Queijo 2, Queijo 3 e Queijo 4</div>
+		<img src="<%=pizza.img%>" alt="<%pizza.nome%>">
+		<div>Ingredientes: <%= pizza.ingredientes.join(', ')%></div>
 		<button>+ Add</button>
-		<a href="pizza.html" class="prev">&lt;</a>
-		<a href="pizza.html" class="next">&gt;</a>
+		<a href="/pizzas/<%= idAnterior %>" class="prev">&lt;</a>
+		<a href="/pizzas/<%= idProxima %>" class="next">&gt;</a>
 	</main>
 </body>
 </html>
