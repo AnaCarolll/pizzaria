@@ -254,7 +254,7 @@ Fase 15 - Passando de uma pizza para outra:
         - Caso contrário, idProxima deve ter o id da pizza da posição seguinte
         - Se a posição da pizza envontrada for a primeira do array, o idAnterior deve receber o id da última pizza
         - Caso controário, idAnterior deve receber o id da pizza na posição anterior.
-    ☐ No arquivo pizza.ejs, adeque os links:
+    ✔ No arquivo pizza.ejs, adeque os links: @done(22-04-07 15:06)
         Onde se vê:
             <a href="pizza.html" class="prev">
         Deve se ver:

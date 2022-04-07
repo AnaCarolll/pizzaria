@@ -41,7 +41,7 @@ const PizzasController = {
 
 
 
-res.render('pizzas.ejs',{pizza, idAnterior, idProxima})
+res.render('pizza.ejs',{pizza, idAnterior, idProxima})
 
 
 
